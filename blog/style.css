@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend Deca';
+}
+body{
+  background-color: #F3F5F7;
+  margin: 0;
+}
+header {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(100, 118, 208, 1) 0%,
+    rgba(255, 146, 43, 1) 0%,
+    rgba(252, 158, 70, 1) 20%,
+    rgba(252, 158, 70, 1) 43%,
+    rgba(252, 70, 70, 1) 97%
+  );
+}
+input {
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  display: flex;
+  width: 900px;
+  height: 65px;
+  margin: 55px auto;
+  background: #ffffff33;
+  border: none;
+  border-radius: 5px;
+
+}
+
+main{
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 10px;
+  border: 0.5 solid;
+  border-radius: 5px;
+  border-color: #717171;
+}
+.publish-data{
+  margin:0px;
+  color: #717171
+}
+.article-content{
+  margin-bottom: 70px;
+  color: #717171;
+}
+h2{
+  color:  #1A202C;
+}
+
+@media(max-width:300px){
+  header{
+    height: 150px;
+    margin: 0;
+  }
+  input{
+    width: initial;
+    font-size: 15px;
+    width: 80%;
+    height: 50px;
+    margin: 10px auto;
+  }
+}
